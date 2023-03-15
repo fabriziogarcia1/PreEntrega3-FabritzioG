@@ -1,0 +1,28 @@
+/*footer grid */
+.grid_footer__{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color:white;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    padding: 5px;
+    margin-top: 0px;
+                .copyright{
+                    font-size: 1.5rem;
+                }
+                .redes{
+                    font-size: 0.5rem;
+                    
+                }
+                .otros{
+                    font-size: 1rem;
+                    .Tarjetas_logo{
+                        height: 3rem;
+                    }
+                    
+                }
+                
+
+}

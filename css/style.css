@@ -1,0 +1,702 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.card_contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  gap: 35px;
+  background: #242622;
+  border-radius: 8px; }
+  .card_contacto .login {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    font-size: x-large; }
+  .card_contacto .inputBox {
+    position: relative;
+    width: 250px; }
+  .card_contacto .inputBox input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1em;
+    background: transparent;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    transition: 0.1s;
+    border-bottom-left-radius: 8px; }
+  .card_contacto .inputBox span {
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+    transform: translateY(-4px);
+    margin-left: 10px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    border-radius: 8px; }
+  .card_contacto .inputBox input:valid ~ span,
+  .card_contacto .inputBox input:focus ~ span {
+    transform: translateX(113px) translateY(-15px);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: #000;
+    letter-spacing: 0.2em;
+    color: #fff;
+    border: 2px; }
+  .card_contacto .inputBox input:valid,
+  .card_contacto .inputBox input:focus {
+    border: 2px solid #000;
+    border-radius: 8px; }
+  .card_contacto .enter {
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+    color: white; }
+    .card_contacto .enter:hover {
+      background-color: black;
+      color: black; }
+
+/*otro FORMULARIO DE INSCRIBIRSE*/
+.card_contacto_dos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  width: 100%;
+  flex-direction: column;
+  gap: 35px;
+  border-radius: 15px;
+  background: #767272;
+  border-radius: 8px; }
+  .card_contacto_dos .singup {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 1.5em; }
+  .card_contacto_dos .inputBox,
+  .card_contacto_dos .inputBox1 {
+    position: relative;
+    width: 250px;
+    color: white; }
+  .card_contacto_dos .inputBox input,
+  .card_contacto_dos .inputBox1 input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    background: transparent;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    transition: 0.1s;
+    border-bottom-left-radius: 8px; }
+  .card_contacto_dos .inputBox span,
+  .card_contacto_dos .inputBox1 span {
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+    transform: translateY(-4px);
+    margin-left: 10px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 12px;
+    color: #000;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    border-radius: 8px; }
+  .card_contacto_dos .inputBox input:valid ~ span,
+  .card_contacto_dos .inputBox input:focus ~ span {
+    transform: translateX(113px) translateY(-15px);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: #000;
+    letter-spacing: 0.2em;
+    color: #fff;
+    border: 2px; }
+  .card_contacto_dos .inputBox1 input:valid ~ span,
+  .card_contacto_dos .inputBox1 input:focus ~ span {
+    transform: translateX(156px) translateY(-15px);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: #000;
+    letter-spacing: 0.2em;
+    color: #fff;
+    border: 2px; }
+  .card_contacto_dos .inputBox input:valid,
+  .card_contacto_dos .inputBox input:focus,
+  .card_contacto_dos .inputBox1 input:valid,
+  .card_contacto_dos .inputBox1 input:focus {
+    border: 2px solid #000;
+    border-radius: 8px; }
+  .card_contacto_dos .enter {
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 3em;
+    color: white; }
+    .card_contacto_dos .enter:hover {
+      background-color: black;
+      color: white; }
+
+.flip-card {
+  background-color: transparent;
+  width: 240px;
+  height: 154px;
+  perspective: 1000px; }
+
+.heading {
+  position: absolute;
+  letter-spacing: .2em;
+  font-size: 0.5em;
+  top: 2em;
+  left: 18.6em;
+  color: white; }
+
+.logo_mastercard {
+  position: absolute;
+  top: 6.8em;
+  left: 11.7em; }
+
+.chip {
+  position: absolute;
+  top: 2.3em;
+  left: 1.5em; }
+
+.contactless {
+  position: absolute;
+  top: 3.5em;
+  left: 12.4em; }
+
+.number {
+  position: absolute;
+  font-weight: bold;
+  font-size: .6em;
+  top: 8.3em;
+  left: 1.6em;
+  color: white; }
+
+.valid_thru {
+  position: absolute;
+  font-weight: bold;
+  top: 635.8em;
+  font-size: .01em;
+  left: 140.3em;
+  color: white; }
+
+.date {
+  position: absolute;
+  font-weight: bold;
+  font-size: 0.5em;
+  top: 13.6em;
+  left: 3.2em;
+  color: white; }
+
+.name {
+  position: absolute;
+  font-weight: bold;
+  font-size: 0.5em;
+  top: 16.1em;
+  left: 2em;
+  color: white; }
+
+.strip {
+  position: absolute;
+  background-color: white;
+  width: 15em;
+  height: 1.5em;
+  top: 2.4em;
+  background: repeating-linear-gradient(45deg, #303030, #303030 10px, #202020 10px, #202020 20px); }
+
+.mstrip {
+  position: absolute;
+  background-color: white;
+  width: 8em;
+  height: 0.8em;
+  top: 5em;
+  left: .8em;
+  border-radius: 2.5px; }
+
+.sstrip {
+  position: absolute;
+  background-color: white;
+  width: 4.1em;
+  height: 0.8em;
+  top: 5em;
+  left: 10em;
+  border-radius: 2.5px; }
+
+.code {
+  font-weight: bold;
+  text-align: center;
+  margin: .2em;
+  color: white; }
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d; }
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg); }
+
+.flip-card-front, .flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 1rem; }
+
+.flip-card-front {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;
+  background-color: #171717; }
+
+.flip-card-back {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;
+  background-color: #171717;
+  transform: rotateY(180deg); }
+
+/* PAGINA DEL HEADER */
+header {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  display: grid; }
+  header nav div a {
+    text-decoration: none;
+    color: white; }
+  header nav div .logo {
+    float: left;
+    height: 3rem;
+    margin-left: 0px; }
+  header nav div .logo_2 {
+    height: 2rem; }
+  header nav div a {
+    text-decoration: none;
+    color: white; }
+  header nav div .nav-link {
+    color: red;
+    font-size: 1.8em; }
+  header nav div .navbar-brand {
+    font-size: 2em;
+    color: white; }
+  header nav div .nav-link:hover {
+    color: #56c8eb; }
+  header nav div .navbar-brand:hover {
+    color: white; }
+
+/*BUTON DE LAS LOS HEADER Y FOOTER*/
+button {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid #3d6aff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: white;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in; }
+  button:hover {
+    background: #3d6aff;
+    box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out; }
+    button:hover:hover::before {
+      -webkit-animation: sh02 0.5s 0s linear;
+      -moz-animation: sh02 0.5s 0s linear;
+      animation: sh02 0.5s 0s linear; }
+      button:hover:hover::before::before {
+        content: '';
+        display: block;
+        width: 0px;
+        height: 86%;
+        position: absolute;
+        top: 7%;
+        left: 0%;
+        opacity: 0;
+        background: #fff;
+        box-shadow: 0 0 50px 30px #fff;
+        -webkit-transform: skewX(-20deg);
+        -moz-transform: skewX(-20deg);
+        -ms-transform: skewX(-20deg);
+        -o-transform: skewX(-20deg);
+        transform: skewX(-20deg); }
+        button:hover:hover::before::before:active {
+          box-shadow: 0 0 0 0 transparent;
+          -webkit-transition: box-shadow 0.2s ease-in;
+          -moz-transition: box-shadow 0.2s ease-in;
+          transition: box-shadow 0.2s ease-in; }
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%; }
+  50% {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    left: 100%; } }
+
+/*footer grid */
+.grid_footer__ {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  padding: 5px;
+  margin-top: 0px; }
+  .grid_footer__ .copyright {
+    font-size: 1.5rem; }
+  .grid_footer__ .redes {
+    font-size: 0.5rem; }
+  .grid_footer__ .otros {
+    font-size: 1rem; }
+    .grid_footer__ .otros .Tarjetas_logo {
+      height: 3rem; }
+
+/*index html */
+.index_div {
+  height: 100%;
+  width: 100%;
+  background-color: #313131;
+  display: grid;
+  grid-template-columns: auto; }
+  .index_div .presentacion_index_imagen {
+    width: 100%;
+    height: 100vh;
+    background-color: red; }
+  .index_div .presentacion_texto {
+    color: white;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    grid-column: span 0/2; }
+    .index_div .presentacion_texto:hover {
+      background-color: black;
+      color: #fff9f9;
+      transition: 2s; }
+  .index_div .nike_presentacion {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+
+main .section_con_cards {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  background-color: #2f2f2f;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  margin-top: 0px;
+  padding: 5px; }
+  main .section_con_cards .card {
+    width: 300px;
+    height: 550px;
+    margin-top: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: brown;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black; }
+    main .section_con_cards .card .imagen_card {
+      width: 100%;
+      height: 250px; }
+    main .section_con_cards .card .imagen__card {
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
+    main .section_con_cards .card .descripcion_card {
+      height: 300px;
+      width: 100%;
+      background-color: beige;
+      text-align: center;
+      overflow: hidden;
+      transition: 2s; }
+      main .section_con_cards .card .descripcion_card .titulo_card {
+        font-size: 1rem; }
+      main .section_con_cards .card .descripcion_card .card_texto {
+        font-size: 1rem;
+        font-weight: 500; }
+      main .section_con_cards .card .descripcion_card .campeones {
+        font-size: 1rem;
+        font-weight: bold; }
+    main .section_con_cards .card .descripcion_card:hover {
+      background-color: black;
+      color: white;
+      transition: 2s; }
+
+/*PAGINA DE CONTACTO */
+main .contacto_y_mapa {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 100%;
+  background-color: #5f5e5e; }
+  main .contacto_y_mapa .container_incribirse {
+    width: 100%; }
+  main .contacto_y_mapa .mapa {
+    width: 100%;
+    height: 25rem;
+    background-color: blue; }
+    main .contacto_y_mapa .mapa .titulo_contac {
+      font-size: 40px; }
+  main .contacto_y_mapa .card_en_el_centro {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+/*GRID LAYOUT CAMPERA*/
+.grid_layout_1 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 35% auto;
+  grid-template-rows: 15% 60% 15%; }
+  .grid_layout_1 .caja_campera {
+    border: 4px solid black;
+    background-color: aquamarine;
+    margin: 10px;
+    border-radius: 4px; }
+    .grid_layout_1 .caja_campera .banner_doble {
+      height: 100%;
+      width: 50%;
+      float: left; }
+  .grid_layout_1 .c1 {
+    grid-column: 1/3;
+    overflow: hidden; }
+  .grid_layout_1 .c8 {
+    grid-column: 1/3;
+    overflow: hidden; }
+  .grid_layout_1 .c2 {
+    grid-column: 1/2; }
+    .grid_layout_1 .c2 .imagen_ajuste {
+      width: 100%;
+      height: 100%; }
+  .grid_layout_1 .c3 {
+    grid-column: 2/3; }
+    .grid_layout_1 .c3 .imagen_ajuste {
+      width: 100%;
+      height: 100%; }
+
+/*botines Pagina*/
+.botines_section {
+  width: 100vw;
+  height: 100%;
+  background-color: #313131;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px; }
+  .botines_section .botines_card {
+    width: 80vw;
+    height: 300px;
+    background-color: beige;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin: auto;
+    overflow: hidden; }
+    .botines_section .botines_card .botines_img {
+      background-color: blueviolet;
+      height: 100%;
+      width: 20vw;
+      float: left; }
+      .botines_section .botines_card .botines_img .img_botines {
+        width: 100%;
+        height: 100%;
+        overflow: hidden; }
+    .botines_section .botines_card .botines_descripcion {
+      background-color: beige;
+      height: 300px;
+      width: 100%;
+      font-size: 1.5rem;
+      transition: all 1s; }
+      .botines_section .botines_card .botines_descripcion:hover {
+        background-color: black;
+        color: white;
+        transition: 2s; }
+      .botines_section .botines_card .botines_descripcion .titulo_card {
+        overflow: hidden;
+        font-size: 3rem; }
+      .botines_section .botines_card .botines_descripcion .card_descripcion {
+        overflow: hidden; }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /*MEDIA DE LAS CARDS*/
+  main .section_con_cards {
+    grid-template-columns: auto auto; }
+  /* MEDIA DE LA PAGIAN CONTACTO*/
+  main .contacto_y_mapa {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto; }
+    main .contacto_y_mapa .Formulario {
+      width: 100%;
+      height: 400px;
+      background-color: beige;
+      text-align: center; }
+    main .contacto_y_mapa .mapa {
+      width: 100%;
+      height: 400px;
+      background-color: blue; }
+      main .contacto_y_mapa .mapa .titulo_contac {
+        font-size: 40px; }
+  .grid_footer__ {
+    grid-template-columns: auto;
+    justify-content: center; }
+    .grid_footer__ .copyright {
+      font-size: 2rem; }
+    .grid_footer__ .redes {
+      font-size: 1rem;
+      padding: 2rem; }
+    .grid_footer__ .otros {
+      font-size: 2rem; }
+      .grid_footer__ .otros .Tarjetas_logo {
+        height: 5rem; }
+  /*media de los botines*/
+  .botines_section {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around; }
+    .botines_section .botines_card {
+      display: flex;
+      flex-direction: column;
+      width: 18.1rem;
+      height: 40rem;
+      justify-content: center;
+      border: 1px solid black; }
+      .botines_section .botines_card .botines_img {
+        height: 12rem;
+        width: 18rem;
+        background-color: aqua; }
+      .botines_section .botines_card .botines_descripcion {
+        background-color: beige;
+        height: 28rem;
+        width: 18rem; } }
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  /*index imagen*/
+  .nike_presentacion {
+    height: 200px;
+    width: 100%; }
+  /*media de los botines*/
+  .botines_section {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around; }
+    .botines_section .botines_card {
+      display: grid;
+      grid-template-columns: auto;
+      width: 18rem;
+      height: 40rem;
+      justify-content: center;
+      border: 1px solid black;
+      border-radius: 10px; }
+      .botines_section .botines_card .botines_img {
+        height: 10rem;
+        width: 18rem;
+        background-color: aqua; }
+      .botines_section .botines_card .botines_descripcion {
+        background-color: beige;
+        height: 30rem;
+        width: 18rem; }
+  /* MEDIA DE LAS CARDS*/
+  main .section_con_cards {
+    grid-template-columns: auto; }
+  /*MEDIA DE LA PAGIAN CONTACTO*/
+  main .contacto_y_mapa {
+    display: grid;
+    grid-template-columns: auto; }
+  .grid_footer__ {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto; }
+    .grid_footer__ .copyright {
+      display: flex;
+      justify-content: center; }
+    .grid_footer__ .redes {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      padding: 2px; }
+    .grid_footer__ .otros {
+      display: flex;
+      justify-content: center;
+      margin-top: 15px; }
+  /*media de header*/
+  header .logo {
+    height: 1px; }
+  header .logo_2 {
+    height: 0.5rem; }
+  /*media de layout campera*/
+  .grid_layout_1 {
+    width: 80%;
+    grid-template-columns: auto;
+    grid-template-rows: 10% 40% 30% 10%; }
+    .grid_layout_1 .caja_campera {
+      grid-template-columns: 1/3; }
+    .grid_layout_1 .c1 {
+      grid-column: 1/3;
+      overflow: hidden; }
+    .grid_layout_1 .c8 {
+      grid-column: 1/3;
+      overflow: hidden; }
+    .grid_layout_1 .c2 {
+      grid-column: 1/3; }
+    .grid_layout_1 .c3 {
+      grid-column: 1/3; } }

@@ -1,0 +1,371 @@
+
+
+.card_contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width:100%;
+  flex-direction: column;
+  gap: 35px;
+  background: #242622;
+  border-radius: 8px;
+  
+                    .login {
+                      color:white;
+                      text-transform: uppercase;
+                      letter-spacing: 2px;
+                      display: block;
+                      font-weight: bold;
+                      font-size: x-large;
+                      
+                    }
+                    .inputBox {
+                      position: relative;
+                      width: 250px;
+                    }
+                    
+                    .inputBox input {
+                      width: 100%;
+                      padding: 10px;
+                      outline: none;
+                      border: none;
+                      color: white;
+                      font-size: 1em;
+                      background: transparent;
+                      border-left: 2px solid #000;
+                      border-bottom: 2px solid #000;
+                      transition: 0.1s;
+                      border-bottom-left-radius: 8px;
+                    }
+                    
+                    .inputBox span {
+                      margin-top: 5px;
+                      position: absolute;
+                      left: 0;
+                      transform: translateY(-4px);
+                      margin-left: 10px;
+                      padding: 10px;
+                      pointer-events: none;
+                      font-size: 12px;
+                      color: white;
+                      text-transform: uppercase;
+                      transition: 0.5s;
+                      letter-spacing: 3px;
+                      border-radius: 8px;
+                    }
+                    
+                    .inputBox input:valid~span,
+                    .inputBox input:focus~span {
+                      transform: translateX(113px) translateY(-15px);
+                      font-size: 0.8em;
+                      padding: 5px 10px;
+                      background: #000;
+                      letter-spacing: 0.2em;
+                      color: #fff;
+                      border: 2px;
+                    }
+                    
+                    .inputBox input:valid,
+                    .inputBox input:focus {
+                      border: 2px solid #000;
+                      border-radius: 8px;
+                    }
+                    .enter {
+                      height: 45px;
+                      width: 100px;
+                      border-radius: 5px;
+                      border: 2px solid #000;
+                      cursor: pointer;
+                      background-color: transparent;
+                      transition: 0.5s;
+                      text-transform: uppercase;
+                      font-size: 10px;
+                      letter-spacing: 2px;
+                      margin-bottom: 1em;
+                      color:white;
+                      &:hover {
+                        background-color: rgb(0, 0, 0);
+                        color: black;
+                      }
+                    }
+                    
+                   
+                    
+                    
+}
+
+
+
+
+
+
+/*otro FORMULARIO DE INSCRIBIRSE*/
+
+
+
+.card_contacto_dos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  width: 100%;
+  flex-direction: column;
+  gap: 35px;
+  border-radius: 15px;
+  background: #767272;
+  border-radius: 8px;
+  .singup {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 1.5em;
+  }
+  .inputBox,
+.inputBox1 {
+  position: relative;
+  width: 250px;
+  color: white;
+}
+
+.inputBox input,
+.inputBox1 input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: #000;
+  font-size: 1em;
+  background: transparent;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  transition: 0.1s;
+  border-bottom-left-radius: 8px;
+}
+
+.inputBox span,
+.inputBox1 span {
+  margin-top: 5px;
+  position: absolute;
+  left: 0;
+  transform: translateY(-4px);
+  margin-left: 10px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 12px;
+  color: #000;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 3px;
+  border-radius: 8px;
+}
+.inputBox input:valid~span,
+.inputBox input:focus~span {
+  transform: translateX(113px) translateY(-15px);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  background: #000;
+  letter-spacing: 0.2em;
+  color: #fff;
+  border: 2px;
+}
+
+.inputBox1 input:valid~span,
+.inputBox1 input:focus~span {
+  transform: translateX(156px) translateY(-15px);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  background: #000;
+  letter-spacing: 0.2em;
+  color: #fff;
+  border: 2px;
+}
+
+.inputBox input:valid,
+.inputBox input:focus,
+.inputBox1 input:valid,
+.inputBox1 input:focus {
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+.enter {
+  height: 45px;
+  width: 100px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 3em;
+  color: white;
+  &:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 240px;
+  height: 154px;
+  perspective: 1000px;
+}
+
+.heading {
+  position: absolute;
+  letter-spacing: .2em;
+  font-size: 0.5em;
+  top: 2em;
+  left: 18.6em;
+  color:white;
+}
+
+.logo_mastercard {
+  position: absolute;
+  top: 6.8em;
+  left: 11.7em;
+}
+
+.chip {
+  position: absolute;
+  top: 2.3em;
+  left: 1.5em;
+}
+
+.contactless {
+  position: absolute;
+  top: 3.5em;
+  left: 12.4em;
+}
+
+.number {
+  position: absolute;
+  font-weight: bold;
+  font-size: .6em;
+  top: 8.3em;
+  left: 1.6em;
+  color: white;
+}
+
+.valid_thru {
+  position: absolute;
+  font-weight: bold;
+  top: 635.8em;
+  font-size: .01em;
+  left: 140.3em;
+  color: white;
+}
+
+.date {
+  position: absolute;
+  font-weight: bold;
+  font-size: 0.5em;
+  top: 13.6em;
+  left: 3.2em;
+  color: white;
+}
+
+.name {
+  position: absolute;
+  font-weight: bold;
+  font-size: 0.5em;
+  top: 16.1em;
+  left: 2em;
+  color: white;
+}
+
+.strip {
+  position: absolute;
+  background-color: white;
+  width: 15em;
+  height: 1.5em;
+  top: 2.4em;
+  background: repeating-linear-gradient(
+    45deg,
+    #303030,
+    #303030 10px,
+    #202020 10px,
+    #202020 20px
+  );
+}
+
+.mstrip {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 8em;
+  height: 0.8em;
+  top: 5em;
+  left: .8em;
+  border-radius: 2.5px;
+}
+
+.sstrip {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 4.1em;
+  height: 0.8em;
+  top: 5em;
+  left: 10em;
+  border-radius: 2.5px;
+}
+
+.code {
+  font-weight: bold;
+  text-align: center;
+  margin: .2em;
+  color: white;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 1rem;
+}
+
+.flip-card-front {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;
+  background-color: #171717;
+}
+
+.flip-card-back {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;
+  background-color: #171717;
+  transform: rotateY(180deg);
+}

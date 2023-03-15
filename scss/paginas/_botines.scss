@@ -1,0 +1,66 @@
+/*botines Pagina*/
+.botines_section{
+
+    width: 100vw;
+    height: 100%;
+    background-color: $color-fondo ;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    
+                         .botines_card{
+     
+                            width: 80vw;
+                            height: 300px;
+                            background-color: $color-tarjeta;
+                            border-radius: 20px;
+                            border: 2px solid black;
+                            margin-top: 20px;
+                            margin: auto;
+                            overflow: hidden;
+                                             .botines_img{
+                                                background-color: blueviolet;
+                                                height: 100%;
+                                                width: 20vw;
+                                                float: left;  
+                                                .img_botines {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                   overflow: hidden;}
+                                                               
+                                                    
+                                            }
+                                            .botines_descripcion{
+                                                                   
+                                                                  
+                                                background-color: beige;
+                                                height: 300px;
+                                                width: 100%;
+                                                font-size: 1.5rem;
+                                                transition: all 1s;
+                                                
+                                                &:hover{
+                                                 background-color: $color-hover-tarjeta;
+                                                 color: $color-hover-letra;
+                                                 transition: 2s;
+
+                                             } 
+                                             .titulo_card{
+                                                overflow: hidden;
+                                                font-size: $tamaño-letra-card;
+                                             }
+                                             .card_descripcion{
+                                                overflow: hidden;
+                                             }
+                                            }
+                          
+                           
+                            
+                        
+                        }
+    
+    }
+
+    

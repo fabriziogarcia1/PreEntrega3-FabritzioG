@@ -1,0 +1,215 @@
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+
+    /*MEDIA DE LAS CARDS*/
+    main{
+        .section_con_cards{
+            grid-template-columns: auto auto;
+        }
+    }
+
+    /* MEDIA DE LA PAGIAN CONTACTO*/
+
+    main{
+        .contacto_y_mapa{
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+                         .Formulario{  
+                         width: 100%;
+                         height: 400px ;
+                         background-color: beige;
+                         text-align: center;
+                         }
+                         .mapa{
+                            width: 100%;
+                            height: 400px;
+                            background-color: blue;
+                                .titulo_contac{
+                                font-size: 40px;
+                            }
+                                                
+                                            }
+        }
+    }
+
+    .grid_footer__{
+        grid-template-columns: auto;
+        justify-content: center;
+                                    .copyright{
+                                        font-size: 2rem;
+                                    }
+                                    .redes{
+                                        font-size: 1rem;
+                                        padding: 2rem;   
+                                    }
+                                    .otros{
+                                        font-size: 2rem;
+                                        .Tarjetas_logo{
+                                            height: 5rem;
+                                        }
+                                    }
+    }
+    /*media de los botines*/
+    .botines_section{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+
+                         .botines_card{
+                            display: flex;
+                            flex-direction: column;
+                            width: 18.1rem;
+                            height: 40rem;
+                            justify-content: center;
+                            border: 1px solid black;
+
+     
+                           
+                                             .botines_img{
+                                                height: 12rem;
+                                                width: 18rem;
+                                                background-color: aqua;
+                                                
+                                                
+                                   
+                                                    
+                                            }
+                                            .botines_descripcion{
+                                                background-color: beige;
+                                                height: 28rem;
+                                                width: 18rem;
+                                                                   
+                                                                  
+                                               
+                                                
+                                             
+                                            }
+                          
+                           
+                            
+                        
+                        }
+    
+    }
+}
+
+    @media screen and (min-width: 425px) and (max-width: 767px){
+/*index imagen*/
+.nike_presentacion{
+    height: 200px;
+    width: 100%;
+}
+
+
+
+/*media de los botines*/
+
+.botines_section{
+
+    display: grid;
+    grid-template-columns: auto ;
+    justify-content: space-around;
+    
+
+                         .botines_card{
+                            display: grid;
+                            grid-template-columns: auto;
+                            width: 18rem;
+                            height: 40rem;
+                            justify-content: center;
+                            border: 1px solid black;
+                            border-radius: 10px;
+
+     
+                           
+                                             .botines_img{
+                                                height: 10rem;
+                                                width: 18rem;
+                                                background-color: aqua;      
+                                            }
+                                            .botines_descripcion{
+                                                background-color: beige;
+                                                height: 30rem;
+                                                width: 18rem;
+                                                
+                                            }
+                        }
+    
+    }
+/* MEDIA DE LAS CARDS*/
+
+main{
+    .section_con_cards{
+        grid-template-columns: auto;
+    }
+}
+/*MEDIA DE LA PAGIAN CONTACTO*/
+        main{
+            .contacto_y_mapa{
+                display: grid;
+                grid-template-columns: auto;
+                                                    
+                            }
+            }
+            .grid_footer__{
+                grid-template-columns: auto;
+                grid-template-rows: auto auto auto;
+                                        .copyright{
+                                                display: flex;
+                                                justify-content: center;
+                                            }
+                                        .redes{display: flex;
+                                            flex-direction: column;
+                                            margin-top: 10px;
+                                            padding: 2px;
+                                        }
+                                        .otros{display: flex;
+                                                justify-content: center;
+                                                margin-top: 15px;
+                                            }                           
+            }
+/*media de header*/
+            header{
+                .logo{
+                    height: 1px;
+                }
+                .logo_2{
+                    height: 0.5rem;
+                }
+            }
+        
+
+/*media de layout campera*/
+.grid_layout_1{
+    width: 80%;
+    grid-template-columns: auto;
+    grid-template-rows: 10% 40% 30% 10%;
+    .caja_campera{
+        grid-template-columns: 1/3;
+    }
+    .c1{
+        grid-column: 1/3;
+        overflow: hidden;
+    }
+    .c8{
+        grid-column: 1/3;
+        overflow: hidden;
+    }
+    .c2{
+        
+        grid-column: 1/3
+    }
+    .c3{
+        grid-column: 1/3;
+       
+    }
+}
+
+
+
+
+        }

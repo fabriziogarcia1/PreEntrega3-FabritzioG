@@ -1,0 +1,54 @@
+main{
+        .section_con_cards{
+            display: grid;
+            height: 100%;
+            width: 100%;
+            background-color: rgb(47, 47, 47);
+            grid-template-columns: auto auto auto;
+            justify-content: center;
+            margin-top: 0px;
+            padding: 5px;
+                         .card{
+    
+                            width: 300px;
+                            height: 550px;
+                            margin-top: 20px;
+                            border-radius: 6px;
+                            overflow: hidden;
+                            background-color: brown; 
+                            margin-left: 10px;
+                            margin-right: 10px;
+                            border:2px solid black;
+                                                    .imagen_card{
+                                                        width: 100%;
+                                                        height: 250px;}
+                                                        .imagen__card{
+                                                            object-fit: cover;
+                                                            width:100%;
+                                                            height:100%;}
+                                                        .descripcion_card{
+                                                            height: 300px;
+                                                            width: 100% ;
+                                                            background-color:  beige;
+                                                            text-align: center;
+                                                            overflow: hidden;
+                                                            transition: 2s;
+                                                                           .titulo_card{
+                                                                            font-size: 1rem;
+                                                                        }
+                                                                        .card_texto{font-size: 1rem;
+                                                                        font-weight: 500;}
+                                                                        .campeones{
+                                                                            font-size: 1rem;
+                                                                            font-weight: bold;
+                                                                        }
+                                                        }
+                                                        .descripcion_card:hover {
+                                                            background-color: black;
+                                                            color: white;
+                                                            transition: 2s;
+                                                            }
+                        }
+        }
+}
+  
