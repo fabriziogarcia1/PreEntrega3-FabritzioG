@@ -6,10 +6,16 @@ header{
     margin-top: 0px ;
     display: grid;
                   nav{
-                      div{
+                    
+                      div{.cabezera_Mansion{
+                        margin-left: 0px;
+                      }
                         a{
                             text-decoration: none;
                             color: white;
+                            .float_header_mansion{
+                              float: left;
+                            }
                         }
                         .logo{
                         float: left;

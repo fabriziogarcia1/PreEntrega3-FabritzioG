@@ -3,6 +3,10 @@
   padding: 0px;
   box-sizing: border-box; }
 
+a {
+  text-decoration: none;
+  color: white; }
+
 .card_contacto {
   display: flex;
   justify-content: center;
@@ -77,7 +81,7 @@
     color: white; }
     .card_contacto .enter:hover {
       background-color: black;
-      color: black; }
+      color: white; }
 
 /*otro FORMULARIO DE INSCRIBIRSE*/
 .card_contacto_dos {
@@ -305,9 +309,13 @@ header {
   height: 100%;
   margin-top: 0px;
   display: grid; }
+  header nav div .cabezera_Mansion {
+    margin-left: 0px; }
   header nav div a {
     text-decoration: none;
     color: white; }
+    header nav div a .float_header_mansion {
+      float: left; }
   header nav div .logo {
     float: left;
     height: 3rem;
@@ -503,7 +511,7 @@ main .contacto_y_mapa {
 /*GRID LAYOUT CAMPERA*/
 /*botines Pagina*/
 .botines_section {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   background-color: #313131;
   margin-top: 0px;
@@ -514,11 +522,10 @@ main .contacto_y_mapa {
   .botines_section .botines_card {
     width: 80vw;
     height: 300px;
-    background-color: beige;
+    background-color: black;
     border-radius: 20px;
     border: 2px solid black;
-    margin-top: 20px;
-    margin: auto;
+    margin-top: 30px;
     overflow: hidden; }
     .botines_section .botines_card .botines_img {
       background-color: blueviolet;
@@ -530,14 +537,16 @@ main .contacto_y_mapa {
         height: 100%;
         overflow: hidden; }
     .botines_section .botines_card .botines_descripcion {
-      background-color: beige;
+      text-align: center;
+      color: white;
+      background-color: black;
       height: 300px;
       width: 100%;
       font-size: 1.5rem;
       transition: all 1s; }
       .botines_section .botines_card .botines_descripcion:hover {
-        background-color: black;
-        color: white;
+        background-color: beige;
+        color: black;
         transition: 2s; }
       .botines_section .botines_card .botines_descripcion .titulo_card {
         overflow: hidden;
@@ -594,11 +603,10 @@ main .contacto_y_mapa {
         width: 18rem;
         background-color: aqua; }
       .botines_section .botines_card .botines_descripcion {
-        background-color: beige;
         height: 28rem;
         width: 18rem; } }
 
-@media screen and (min-width: 425px) and (max-width: 767px) {
+@media screen and (min-width: 380px) and (max-width: 767px) {
   /*index imagen*/
   .nike_presentacion {
     height: 200px;
@@ -621,7 +629,6 @@ main .contacto_y_mapa {
         width: 18rem;
         background-color: aqua; }
       .botines_section .botines_card .botines_descripcion {
-        background-color: beige;
         height: 30rem;
         width: 18rem; }
   /* MEDIA DE LAS CARDS*/

@@ -1,7 +1,7 @@
 /*botines Pagina*/
 .botines_section{
 
-    width: 100vw;
+    width: 100%;
     height: 100%;
     background-color: $color-fondo ;
     margin-top: 0px;
@@ -17,8 +17,8 @@
                             background-color: $color-tarjeta;
                             border-radius: 20px;
                             border: 2px solid black;
-                            margin-top: 20px;
-                            margin: auto;
+                            margin-top: 30px;
+                            
                             overflow: hidden;
                                              .botines_img{
                                                 background-color: blueviolet;
@@ -33,16 +33,16 @@
                                                     
                                             }
                                             .botines_descripcion{
-                                                                   
-                                                                  
-                                                background-color: beige;
+                                                text-align: center;
+                                                color: $color-letra;  
+                                                background-color: $color-hover-tarjeta;
                                                 height: 300px;
                                                 width: 100%;
                                                 font-size: 1.5rem;
                                                 transition: all 1s;
                                                 
                                                 &:hover{
-                                                 background-color: $color-hover-tarjeta;
+                                                 background-color: $color-cambia;
                                                  color: $color-hover-letra;
                                                  transition: 2s;
 
